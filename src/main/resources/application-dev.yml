@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/medivault_dev}
+
+logging:
+  level:
+    com.medivault: DEBUG

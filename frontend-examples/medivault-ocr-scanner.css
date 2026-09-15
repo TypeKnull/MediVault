@@ -1,0 +1,52 @@
+.medivault-ocr-scanner {
+  display: grid;
+  gap: 12px;
+  max-width: 960px;
+}
+
+.scanner-camera {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #111827;
+}
+
+.scanner-camera video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scanner-guide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.scanner-guide-box {
+  width: 75%;
+  height: 60%;
+  display: grid;
+  place-items: center;
+  border: 2px solid #22c55e;
+  color: #ffffff;
+  background: rgba(17, 24, 39, 0.2);
+}
+
+.scanner-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.medivault-ocr-scanner img {
+  max-width: 240px;
+  border: 1px solid #d1d5db;
+}
+
+.medivault-ocr-scanner textarea {
+  width: 100%;
+  min-height: 180px;
+}
